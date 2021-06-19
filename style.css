@@ -1,0 +1,159 @@
+
+
+img{
+	max-width: 100%;
+}
+/* news header section start */
+.news-header .pricing-text h5{
+    color: #3763EB;
+}
+.news-header .pricing-text h1{
+    font-weight: 600;
+    font-size: 50px;
+}
+.news-header .pricing-text h4{
+    font-weight: 600;
+}
+.news-header .pricing-text .border-price {
+	width: 95px;
+	height: 20px;
+	border-bottom: 2px solid #3763EB;
+	margin: auto;
+}
+.news-header .pricing-text p{
+    color: #606060;
+}
+.news-header{
+	text-align: center;
+}
+
+/* news header section end */
+
+
+
+
+
+
+.image{
+    background: url(img/blog-grid1.jpg);
+    max-width: 100%;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+	border-radius: 5px;
+}
+.author img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.image-text {
+	background: blue;
+	border-radius: 30px;
+	width: 50%;
+	height: 52px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.right-text {
+	margin-top: 10px;
+	color: #fff;
+}
+.image-2{
+	background: url(./img/blog-grid2.jpg);	
+    background-size: cover;   
+}
+.image-3{
+	background: url(./img/blog-grid3.jpg);	
+    background-size: cover;   
+}
+.img-h5{
+	font-weight: 600;
+	margin-top: 20px;
+}
+.img-p{
+	color: #606060;
+}
+
+
+/* bottom section start  */
+.bottom-section{
+    background: #081828;
+    padding: 100px;
+}
+.bottom-img img{
+    width: 100px;
+    height: 100px;
+}
+.bottom-img p {
+	width: 74%;
+	color: #fff;
+}
+.social-icon ul{
+	display: flex;
+	padding-left: 0;
+	margin-top: 30px;
+}
+.social-icon ul li{
+	list-style: none;
+}
+.social-icon ul li a{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 20px;
+	color: #fff;
+	transition: ease-in-out .5s;
+}
+.social-icon ul li a:hover{
+	color: orange;
+	transform: scale(1.5);
+}
+
+.menu-item ul {
+    padding-left: 0;
+  }
+  .menu-item ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .6s;
+  }
+  .menu-item ul li a:hover{
+      letter-spacing: 2px;
+      color: teal;
+  }
+  .menu-item {
+  }
+  .menu-item ul li {
+    list-style: none;
+    line-height: 31px;
+  }
+  .menu-item h5 {
+    font-weight: 600;
+    color: #fff;
+    position: relative;
+    margin-left: 12px;
+  }
+  .menu-item h5::before {
+	position: absolute;
+	content: "";
+	width: 2px;
+	height: 22px;
+	background: blue;
+	top: 2px;
+	left: -9px;
+}
+footer {
+	background: #081828;
+}
+.btp{
+    border-top: 1px solid #ddd;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+/* bottom section end */
